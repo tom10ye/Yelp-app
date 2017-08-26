@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B88A3C91F521B5200B4410E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88A3C81F521B5200B4410E /* main.m */; };
+		3B88A3CC1F521B5200B4410E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88A3CB1F521B5200B4410E /* AppDelegate.m */; };
+		3B88A3CF1F521B5200B4410E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88A3CE1F521B5200B4410E /* ViewController.m */; };
+		3B88A3D21F521B5200B4410E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B88A3D01F521B5200B4410E /* Main.storyboard */; };
+		3B88A3D41F521B5200B4410E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B88A3D31F521B5200B4410E /* Assets.xcassets */; };
+		3B88A3D71F521B5200B4410E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B88A3D51F521B5200B4410E /* LaunchScreen.storyboard */; };
+		3B88A3E21F521B5200B4410E /* SummerYelpMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88A3E11F521B5200B4410E /* SummerYelpMockTests.m */; };
+		3B88A3ED1F521B5200B4410E /* SummerYelpMockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88A3EC1F521B5200B4410E /* SummerYelpMockUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B88A3DE1F521B5200B4410E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B88A3BC1F521B5200B4410E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B88A3C31F521B5200B4410E;
+			remoteInfo = SummerYelpMock;
+		};
+		3B88A3E91F521B5200B4410E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B88A3BC1F521B5200B4410E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B88A3C31F521B5200B4410E;
+			remoteInfo = SummerYelpMock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B88A3C41F521B5200B4410E /* SummerYelpMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerYelpMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B88A3C81F521B5200B4410E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B88A3CA1F521B5200B4410E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B88A3CB1F521B5200B4410E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B88A3CD1F521B5200B4410E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B88A3CE1F521B5200B4410E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B88A3D11F521B5200B4410E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B88A3D31F521B5200B4410E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B88A3D61F521B5200B4410E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B88A3D81F521B5200B4410E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B88A3DD1F521B5200B4410E /* SummerYelpMockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerYelpMockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B88A3E11F521B5200B4410E /* SummerYelpMockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerYelpMockTests.m; sourceTree = "<group>"; };
+		3B88A3E31F521B5200B4410E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B88A3E81F521B5200B4410E /* SummerYelpMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerYelpMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B88A3EC1F521B5200B4410E /* SummerYelpMockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerYelpMockUITests.m; sourceTree = "<group>"; };
+		3B88A3EE1F521B5200B4410E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B88A3C11F521B5200B4410E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B88A3DA1F521B5200B4410E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B88A3E51F521B5200B4410E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B88A3BB1F521B5200B4410E = {
+			isa = PBXGroup;
+			children = (
+				3B88A3C61F521B5200B4410E /* SummerYelpMock */,
+				3B88A3E01F521B5200B4410E /* SummerYelpMockTests */,
+				3B88A3EB1F521B5200B4410E /* SummerYelpMockUITests */,
+				3B88A3C51F521B5200B4410E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B88A3C51F521B5200B4410E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B88A3C41F521B5200B4410E /* SummerYelpMock.app */,
+				3B88A3DD1F521B5200B4410E /* SummerYelpMockTests.xctest */,
+				3B88A3E81F521B5200B4410E /* SummerYelpMockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B88A3C61F521B5200B4410E /* SummerYelpMock */ = {
+			isa = PBXGroup;
+			children = (
+				3B88A3CA1F521B5200B4410E /* AppDelegate.h */,
+				3B88A3CB1F521B5200B4410E /* AppDelegate.m */,
+				3B88A3CD1F521B5200B4410E /* ViewController.h */,
+				3B88A3CE1F521B5200B4410E /* ViewController.m */,
+				3B88A3D01F521B5200B4410E /* Main.storyboard */,
+				3B88A3D31F521B5200B4410E /* Assets.xcassets */,
+				3B88A3D51F521B5200B4410E /* LaunchScreen.storyboard */,
+				3B88A3D81F521B5200B4410E /* Info.plist */,
+				3B88A3C71F521B5200B4410E /* Supporting Files */,
+			);
+			path = SummerYelpMock;
+			sourceTree = "<group>";
+		};
+		3B88A3C71F521B5200B4410E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B88A3C81F521B5200B4410E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B88A3E01F521B5200B4410E /* SummerYelpMockTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B88A3E11F521B5200B4410E /* SummerYelpMockTests.m */,
+				3B88A3E31F521B5200B4410E /* Info.plist */,
+			);
+			path = SummerYelpMockTests;
+			sourceTree = "<group>";
+		};
+		3B88A3EB1F521B5200B4410E /* SummerYelpMockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B88A3EC1F521B5200B4410E /* SummerYelpMockUITests.m */,
+				3B88A3EE1F521B5200B4410E /* Info.plist */,
+			);
+			path = SummerYelpMockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B88A3C31F521B5200B4410E /* SummerYelpMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B88A3F11F521B5200B4410E /* Build configuration list for PBXNativeTarget "SummerYelpMock" */;
+			buildPhases = (
+				3B88A3C01F521B5200B4410E /* Sources */,
+				3B88A3C11F521B5200B4410E /* Frameworks */,
+				3B88A3C21F521B5200B4410E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummerYelpMock;
+			productName = SummerYelpMock;
+			productReference = 3B88A3C41F521B5200B4410E /* SummerYelpMock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B88A3DC1F521B5200B4410E /* SummerYelpMockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B88A3F41F521B5200B4410E /* Build configuration list for PBXNativeTarget "SummerYelpMockTests" */;
+			buildPhases = (
+				3B88A3D91F521B5200B4410E /* Sources */,
+				3B88A3DA1F521B5200B4410E /* Frameworks */,
+				3B88A3DB1F521B5200B4410E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B88A3DF1F521B5200B4410E /* PBXTargetDependency */,
+			);
+			name = SummerYelpMockTests;
+			productName = SummerYelpMockTests;
+			productReference = 3B88A3DD1F521B5200B4410E /* SummerYelpMockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B88A3E71F521B5200B4410E /* SummerYelpMockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B88A3F71F521B5200B4410E /* Build configuration list for PBXNativeTarget "SummerYelpMockUITests" */;
+			buildPhases = (
+				3B88A3E41F521B5200B4410E /* Sources */,
+				3B88A3E51F521B5200B4410E /* Frameworks */,
+				3B88A3E61F521B5200B4410E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B88A3EA1F521B5200B4410E /* PBXTargetDependency */,
+			);
+			name = SummerYelpMockUITests;
+			productName = SummerYelpMockUITests;
+			productReference = 3B88A3E81F521B5200B4410E /* SummerYelpMockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B88A3BC1F521B5200B4410E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cheng Qian";
+				TargetAttributes = {
+					3B88A3C31F521B5200B4410E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E3XZ9V9M8T;
+						ProvisioningStyle = Automatic;
+					};
+					3B88A3DC1F521B5200B4410E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E3XZ9V9M8T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B88A3C31F521B5200B4410E;
+					};
+					3B88A3E71F521B5200B4410E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E3XZ9V9M8T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B88A3C31F521B5200B4410E;
+					};
+				};
+			};
+			buildConfigurationList = 3B88A3BF1F521B5200B4410E /* Build configuration list for PBXProject "SummerYelpMock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B88A3BB1F521B5200B4410E;
+			productRefGroup = 3B88A3C51F521B5200B4410E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B88A3C31F521B5200B4410E /* SummerYelpMock */,
+				3B88A3DC1F521B5200B4410E /* SummerYelpMockTests */,
+				3B88A3E71F521B5200B4410E /* SummerYelpMockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B88A3C21F521B5200B4410E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B88A3D71F521B5200B4410E /* LaunchScreen.storyboard in Resources */,
+				3B88A3D41F521B5200B4410E /* Assets.xcassets in Resources */,
+				3B88A3D21F521B5200B4410E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B88A3DB1F521B5200B4410E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B88A3E61F521B5200B4410E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B88A3C01F521B5200B4410E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B88A3CF1F521B5200B4410E /* ViewController.m in Sources */,
+				3B88A3CC1F521B5200B4410E /* AppDelegate.m in Sources */,
+				3B88A3C91F521B5200B4410E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B88A3D91F521B5200B4410E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B88A3E21F521B5200B4410E /* SummerYelpMockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B88A3E41F521B5200B4410E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B88A3ED1F521B5200B4410E /* SummerYelpMockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B88A3DF1F521B5200B4410E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B88A3C31F521B5200B4410E /* SummerYelpMock */;
+			targetProxy = 3B88A3DE1F521B5200B4410E /* PBXContainerItemProxy */;
+		};
+		3B88A3EA1F521B5200B4410E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B88A3C31F521B5200B4410E /* SummerYelpMock */;
+			targetProxy = 3B88A3E91F521B5200B4410E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B88A3D01F521B5200B4410E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B88A3D11F521B5200B4410E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B88A3D51F521B5200B4410E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B88A3D61F521B5200B4410E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B88A3EF1F521B5200B4410E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B88A3F01F521B5200B4410E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B88A3F21F521B5200B4410E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E3XZ9V9M8T;
+				INFOPLIST_FILE = SummerYelpMock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChengQian.SummerYelpMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B88A3F31F521B5200B4410E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E3XZ9V9M8T;
+				INFOPLIST_FILE = SummerYelpMock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChengQian.SummerYelpMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B88A3F51F521B5200B4410E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E3XZ9V9M8T;
+				INFOPLIST_FILE = SummerYelpMockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChengQian.SummerYelpMockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerYelpMock.app/SummerYelpMock";
+			};
+			name = Debug;
+		};
+		3B88A3F61F521B5200B4410E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E3XZ9V9M8T;
+				INFOPLIST_FILE = SummerYelpMockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChengQian.SummerYelpMockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerYelpMock.app/SummerYelpMock";
+			};
+			name = Release;
+		};
+		3B88A3F81F521B5200B4410E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E3XZ9V9M8T;
+				INFOPLIST_FILE = SummerYelpMockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChengQian.SummerYelpMockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SummerYelpMock;
+			};
+			name = Debug;
+		};
+		3B88A3F91F521B5200B4410E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E3XZ9V9M8T;
+				INFOPLIST_FILE = SummerYelpMockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChengQian.SummerYelpMockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SummerYelpMock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B88A3BF1F521B5200B4410E /* Build configuration list for PBXProject "SummerYelpMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B88A3EF1F521B5200B4410E /* Debug */,
+				3B88A3F01F521B5200B4410E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B88A3F11F521B5200B4410E /* Build configuration list for PBXNativeTarget "SummerYelpMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B88A3F21F521B5200B4410E /* Debug */,
+				3B88A3F31F521B5200B4410E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B88A3F41F521B5200B4410E /* Build configuration list for PBXNativeTarget "SummerYelpMockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B88A3F51F521B5200B4410E /* Debug */,
+				3B88A3F61F521B5200B4410E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B88A3F71F521B5200B4410E /* Build configuration list for PBXNativeTarget "SummerYelpMockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B88A3F81F521B5200B4410E /* Debug */,
+				3B88A3F91F521B5200B4410E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B88A3BC1F521B5200B4410E /* Project object */;
+}
